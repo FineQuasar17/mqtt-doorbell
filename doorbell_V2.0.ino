@@ -4,9 +4,15 @@ This is the code i have made to conet my doorbel upto a MQTT server
 replace **** with your creds
 
 if you are useing MQTT without password chang 
+      if (client.connect(clientId.c_str(), mqtt_username, mqtt_password))
+to be 
+      if (client.connect(clientId.c_str()))
 
+fyi pin 4 = D4
+do not use D3 it will brake
 
-
+Made by FineQuasar17 and TheEPROM9
+last edit 18/08/2022 uk layout
 */
 
 #include <ESP8266WiFi.h>
