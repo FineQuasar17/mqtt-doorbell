@@ -3,7 +3,7 @@
 
 //WIFI
 const char* wifi_ssid = "fbi";
-const char* wifi_password = "Brandonfirth12";
+const char* wifi_password = "****";
 
 /*/MQTT
 const char* mqtt_server = "192.168.69.4";
@@ -14,7 +14,7 @@ const char* mqtt_server = "192.168.69.4";
 const char *mqtt_broker = "192.168.69.4";
 const char *topic = "Doorbel";
 const char *mqtt_username = "ashley";
-const char *mqtt_password = "Finequasar17";
+const char *mqtt_password = "****";
 const int mqtt_port = 1883;
 
 //VARS
